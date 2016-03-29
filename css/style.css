@@ -1,0 +1,510 @@
+/* RESET STYLES */
+html {
+    font-family: sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+body {
+    margin: 0
+}
+
+a{
+    text-decoration: none;
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block
+}
+
+audio, canvas, progress, video {
+    display: inline-block;
+    vertical-align: baseline
+}
+
+audio:not([controls]) {
+    display: none;
+    height: 0
+}
+
+[hidden], template {
+    display: none
+}
+
+a {
+    background: 0 0
+}
+
+a:active, a:hover {
+    outline: 0
+}
+
+abbr[title] {
+    border-bottom: 1px dotted
+}
+
+b, strong {
+    font-weight: 700
+}
+
+dfn {
+    font-style: italic
+}
+
+h1 {
+    font-size: 2em;
+    margin: .67em 0
+}
+
+mark {
+    background: #ff0;
+    color: #000
+}
+
+small {
+    font-size: 80%
+}
+
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline
+}
+
+sup {
+    top: -.5em
+}
+
+sub {
+    bottom: -.25em
+}
+
+img {
+    border: 0
+}
+
+svg:not(:root) {
+    overflow: hidden
+}
+
+figure {
+    margin: 1em 40px
+}
+
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0
+}
+
+pre {
+    overflow: auto
+}
+
+code, kbd, pre, samp {
+    font-family: monospace, monospace;
+    font-size: 1em
+}
+
+button, input, optgroup, select, textarea {
+    color: inherit;
+    font: inherit;
+    margin: 0
+}
+
+button {
+    overflow: visible
+}
+
+button, select {
+    text-transform: none
+}
+
+button, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+button[disabled], html input[disabled] {
+    cursor: default
+}
+
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox], input[type=radio] {
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+input[type=search] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box
+}
+
+input[type=search]::-webkit-search-cancel-button, input[type=search]::-webkit-search-decoration {
+    -webkit-appearance: none
+}
+
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: .35em .625em .75em
+}
+
+legend {
+    border: 0;
+    padding: 0
+}
+
+textarea {
+    overflow: auto
+}
+
+optgroup {
+    font-weight: 700
+}
+
+body {
+    font-family: '微软雅黑', '宋体';
+    overflow-x:hidden;
+    height: 100%;
+    position: relative;
+}
+
+a, button, form, input, select, textarea {
+    -webkit-tap-highlight-color: transparent
+}
+
+.app-contents {
+    width: 100%;
+    min-width: 320px;
+    height: 100%;
+}
+.page-heroPic{
+    background: #ff3c00;
+    position: relative;
+}
+
+.work1 {
+    text-align: center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 40px 30px 30px;
+}
+.work1 img {
+    width: 100%;
+    display: block;
+
+}
+.work2 {
+    text-align: center;
+    position: relative;
+    top: -40px
+}
+.work2 .days {
+    padding-left: 40px;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff1d3;
+    font-size: 8rem;
+}
+.title {
+    text-align: center;
+    position: relative;
+    top: -70px;
+    right: 20px;
+}
+.title ul li {
+    display: inline-block;
+    list-style: none;
+    font-family: Arial;
+    font-weight: bold;
+    color: #fff1d3;
+    font-size: 1.9rem;
+}
+.work3 {
+    position: relative;
+    top: -80px;
+}
+
+/*熊动画 begin*/
+.xiong {
+    width: 10.06rem;
+    height: 10.1rem;
+    background: url(../img/xiong.png) no-repeat;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: absolute;
+    bottom:0px;
+    right: 0px;
+    -webkit-animation: ani_plane 1.5s linear;
+    animation: ani_plane 1.5s linear;
+}
+@-webkit-keyframes ani_plane {
+    from {
+        -webkit-transform: translate(36px, 20px) scale(.8);
+        opacity: 0
+    }
+
+    to {
+        properties:value;
+    }
+}
+
+@keyframes ani_plane {
+     from {
+         -webkit-transform: translate(36px, 20px) scale(.8);
+         opacity: 0
+     }
+
+     to {
+         properties:value;
+     }
+ }
+@-moz-keyframes ani_plane {
+    from {
+        -webkit-transform: translate(36px, 20px) scale(.8);
+        opacity: 0
+    }
+
+    to {
+        properties:value;
+    }
+}
+
+/*熊动画 end*/
+
+/*向下按钮动画 begin*/
+.furu {
+    -webkit-animation: fur .5s ease-in
+}
+
+.u-guideWrap {
+    width: 74px;
+    height: 20px;
+    position: absolute;
+    bottom: 23px;
+    left: 50%;
+    margin-left: -38px;
+    border-radius: 45px;
+}
+.u-guideTop.z-move {
+    -webkit-animation: guideTop 1.5s infinite;
+}
+.u-guideTop {
+    border: 15px solid transparent;
+    border-top: 15px solid #fff;
+    position: absolute;
+    left: 50%;
+    margin-left: -20px;
+    display: block;
+    z-index: 9998;
+}
+@-webkit-keyframes guideTop {
+    100% {
+        -webkit-transform: translateY(20px);
+        opacity: 0
+    }
+    60% {
+        -webkit-transform: translateY(0px);
+        opacity: 1
+    }
+    0% {
+        -webkit-transform: translateY(0px);
+        opacity: 0
+    }
+
+}
+
+@-moz-keyframes guideTop {
+    100% {
+        -webkit-transform: translateY(20px);
+        opacity: 0
+    }
+    60% {
+        -webkit-transform: translateY(0px);
+        opacity: 1
+    }
+    0% {
+        -webkit-transform: translateY(0px);
+        opacity: 0
+    }
+
+}
+
+@-o-keyframes guideTop {
+    100% {
+        -webkit-transform: translateY(20px);
+        opacity: 0
+    }
+    60% {
+        -webkit-transform: translateY(0px);
+        opacity: 1
+    }
+    0% {
+        -webkit-transform: translateY(0px);
+        opacity: 0
+    }
+
+}
+
+/*向下按钮动画 end*/
+
+/*翻页 begin*/
+.page.z-active {
+    z-index: 2;
+    display: block
+}
+.page.z-current {
+    z-index: 1;
+    display: block;
+}
+.page-content {
+    overflow: hidden;
+    -webkit-box-flex: 100;
+}
+.page.z-actived {
+    display: block
+}
+.u-guidePrev.z-move {
+    -webkit-animation: guidePrev 1.5s infinite
+}
+.u-guideNext.z-move {
+    -webkit-animation: guideNext 1.5s infinite
+}
+.page {
+    border: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: top center;
+    overflow:auto;
+    background: #ff3c00;
+    z-index: 0;
+    display: none;
+    -webkit-transform-origin: center center;
+}
+
+/*翻页 end*/
+
+.paiertimg img {
+    width: 100%;
+    display: block;
+}
+
+/*大明商汇注册*/
+.shreguiter{
+    background: #35373f;
+    padding-bottom: 30px;
+}
+.titler{
+    color: #ff3c00;
+    text-align: center;
+    font-size:18px;
+    padding: 20px 0;
+    font-weight: bold;
+}
+.box-input{
+    line-height: 34px;
+    padding-left: 14px;
+    padding-right: 14px;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    width: 100%;
+    overflow: hidden;
+    color: #fff;
+}
+.input-name{
+    color: #fff;
+    font-size: 14px;
+    display: inline-block;
+    line-height:45px;
+}
+.input-box{
+    -webkit-box-flex: 1;
+    -moz-box-flex: 1;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+.box-input input{
+    width: 100%;
+    height:45px;
+    box-sizing: border-box;
+    background: #202126;
+    font-size: 14px;
+    color: #fff;
+    padding-left: 5px;
+    -webkit-appearance: none;
+    border:1px solid #4b4e59;
+    border-radius: 3px;
+}
+.lectinput{
+    letter-spacing:4px;
+}
+.lectinput2{
+    letter-spacing:13px;
+}
+.top-input{
+    margin-top: 18px;
+}
+.input-btn{
+    text-align: center;
+    color: #fff;
+    margin-top: 10px;
+    width: 100%;
+}
+.input-btn a{
+    height:40px;
+    line-height:40px;
+    background: #ff3c00;
+    display: block;
+    color: #fff;
+    border-radius: 5px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #3c3c3c;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    color:    #3c3c3c;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    color:    #3c3c3c;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color:    #3c3c3c;
+}
+
+.tishier{
+    color:#e93a04;
+    font-size: 12px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.online{
+
+            overflow:hidden; position: fixed;top:75%; z-index:999;right:0px;
+
+           _position:absolute; _bottom:auto;
+
+           _top:expression(eval(document.documentElement.scrollTop+document.documentElement.clientHeight-450)); 
+
+}
+
+
